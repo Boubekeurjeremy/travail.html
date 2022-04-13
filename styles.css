@@ -1,0 +1,24 @@
+body{
+    @font-face {
+        font-family: 'ballparkweiner';
+        src: url('ballpark.woff2') format('woff2'),
+             url('ballpark.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        @font-face {
+            font-family: 'day_romanregular';
+            src: url('dayrom-webfont.woff2') format('woff2'),
+                 url('dayrom-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-family:"day romanregular","ballparkweiner"
+            
+        }
+    
+    }
+
+}
+body{
+    background:url ("fond_jaune.png");
+    background-color:red;
+}
